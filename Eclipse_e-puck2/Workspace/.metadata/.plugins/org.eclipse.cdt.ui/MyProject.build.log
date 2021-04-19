@@ -1,0 +1,15 @@
+17:51:37 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'sread':
+main.c:59:47: error: called object is not a function or function pointer
+       chprintf((BaseSequentialStream *)&SDU1, "sensor " (i)": %4d\n",get_prox(i));
+                                               ^~~~~~~~~
+main.c:59:60: error: expected ')' before string constant
+       chprintf((BaseSequentialStream *)&SDU1, "sensor " (i)": %4d\n",get_prox(i));
+                                                            ^~~~~~~~~
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+make: *** [build/obj/main.o] Error 1
+
+17:51:37 Build Finished (took 713ms)
+

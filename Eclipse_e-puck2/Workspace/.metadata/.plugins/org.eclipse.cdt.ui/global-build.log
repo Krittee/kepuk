@@ -1,0 +1,186 @@
+17:35:36 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:44 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:05 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'main':
+main.c:107:41: warning: comparison between pointer and integer
+      if (get_prox(0) >= 250 && get_prox >= 250){
+                                         ^~
+main.c:111:41: warning: comparison between pointer and integer
+       if (get_prox(0) < 200 && get_prox < 200){
+                                         ^
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  70580	   3036	  18172	  91788	  1668c	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+17:37:13 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:12 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:16 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:43 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  70484	   3036	  18172	  91692	  1662c	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+17:39:48 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:59 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  70564	   3036	  18172	  91772	  1667c	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+17:42:04 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:42:56 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  70580	   3036	  18172	  91788	  1668c	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+17:43:03 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:38 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  70564	   3036	  18172	  91772	  1667c	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+17:44:43 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:54 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'sread':
+main.c:53:7: error: 'i' undeclared (first use in this function)
+  for (i = 0;i++;i<7){
+       ^
+main.c:53:7: note: each undeclared identifier is reported only once for each function it appears in
+main.c: In function 'main':
+main.c:116:6: warning: implicit declaration of function 'sensors' [-Wimplicit-function-declaration]
+      sensors();
+      ^~~~~~~
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+make: *** [build/obj/main.o] Error 1
+17:49:03 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'sread':
+main.c:53:7: error: 'i' undeclared (first use in this function)
+  for (i = 0;i++;i<7){
+       ^
+main.c:53:7: note: each undeclared identifier is reported only once for each function it appears in
+main.c: In function 'main':
+main.c:116:6: warning: implicit declaration of function 'sensors' [-Wimplicit-function-declaration]
+      sensors();
+      ^~~~~~~
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+make: *** [build/obj/main.o] Error 1
+17:49:08 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'sread':
+main.c:53:7: error: 'i' undeclared (first use in this function)
+  for (i = 0;i++;i<7){
+       ^
+main.c:53:7: note: each undeclared identifier is reported only once for each function it appears in
+main.c: In function 'main':
+main.c:116:6: warning: implicit declaration of function 'sensors' [-Wimplicit-function-declaration]
+      sensors();
+      ^~~~~~~
+make: *** [build/obj/main.o] Error 1
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+17:49:37 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'sread':
+main.c:54:18: warning: statement with no effect [-Wunused-value]
+  for (i = 0;i++;i<7){
+                 ~^~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  68372	   3036	  18172	  89580	  15dec	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+17:50:14 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
+
+   text	   data	    bss	    dec	    hex	filename
+  70308	   3036	  18172	  91516	  1657c	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+17:50:30 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+make: Nothing to be done for 'all'.
+17:51:37 **** Incremental Build of configuration Default for project MyProject ****
+make all 
+[1;34mCompiling main.c[0m
+main.c: In function 'sread':
+main.c:59:47: error: called object is not a function or function pointer
+       chprintf((BaseSequentialStream *)&SDU1, "sensor " (i)": %4d\n",get_prox(i));
+                                               ^~~~~~~~~
+main.c:59:60: error: expected ')' before string constant
+       chprintf((BaseSequentialStream *)&SDU1, "sensor " (i)": %4d\n",get_prox(i));
+                                                            ^~~~~~~~~
+../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:216: recipe for target 'build/obj/main.o' failed
+make: *** [build/obj/main.o] Error 1
